@@ -1,3 +1,5 @@
+import MealItemForm from "./MealItemForm";
+
 import classes from "./MealItem.module.css";
 
 export default props => {
@@ -10,7 +12,7 @@ export default props => {
                 <div className={classes.price}>{price}</div>
             </div>
             <div>
-
+                <MealItemForm />
             </div>
         </li>
     );
